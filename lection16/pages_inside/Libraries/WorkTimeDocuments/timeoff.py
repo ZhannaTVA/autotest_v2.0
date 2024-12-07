@@ -35,7 +35,6 @@ class Dialog(DocumentTemplate):
             self.time_from_elm.type_in(kwargs['Со скольки'])
             self.time_to_elm.type_in(kwargs['До скольки'])
 
-
     def run_timeoff(self, staff):
         """Отправить на согласование"""
 

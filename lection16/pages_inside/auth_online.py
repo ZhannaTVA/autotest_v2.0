@@ -6,10 +6,9 @@ class AuthOnline(Region):
     login = TextField(By.CSS_SELECTOR, '[type="text"]', 'логин')
     password = TextField(By.CSS_SELECTOR, '[type="password"]', 'пароль')
 
-
     def auth(self, user_login, user_password):
         """
-        Авторизация на онлайн
+        Авторизация на онлайне
         :param user_login: Логин
         :param user_password: Пароль
         """

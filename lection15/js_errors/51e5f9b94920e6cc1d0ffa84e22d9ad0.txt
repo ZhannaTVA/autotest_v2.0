@@ -1,0 +1,80 @@
+07-12-2024 15:05:22.173000;https://fix-cdn.sbis.ru/static/resources/Env/online-superbundle.package.min.js?x_module=4d03dfe6f8998d8259e67bcd9a9f5efe 2:38463 "CONTROL ERROR: " "Controls/_listsCommonLogic/scrollController/AbstractListVirtualScrollController::_scrollToElement | Внутренняя ошибка списков! По ключу записи не найден DOM элемент. Промис scrollToItem не отстрельнет, возможны ошибки." "
+Stack: Error
+    at l (https://fix-cdn.sbis.ru/static/resources/UICommon/online-superbundle.package.min.js?x_module=97b4ed72fb3d99d62bbf32ace462d473:4:5619)
+    at Object.b [as error] (https://fix-cdn.sbis.ru/static/resources/UICommon/online-superbundle.package.min.js?x_module=97b4ed72fb3d99d62bbf32ace462d473:4:7222)
+    at a (https://fix-cdn.sbis.ru/static/resources/Controls/listsCommonLogic.min.js?x_module=3592c9374897a2be9ca883b7ce27cbb2:1:104762)
+    at l._scrollToElement (https://fix-cdn.sbis.ru/static/resources/Controls/listsCommonLogic.min.js?x_module=3592c9374897a2be9ca883b7ce27cbb2:1:104982)
+    at l._handleScheduledScroll (https://fix-cdn.sbis.ru/static/resources/Controls/listsCommonLogic.min.js?x_module=3592c9374897a2be9ca883b7ce27cbb2:1:103151)
+    at l.afterRenderListControl (https://fix-cdn.sbis.ru/static/resources/Controls/listsCommonLogic.min.js?x_module=3592c9374897a2be9ca883b7ce27cbb2:1:84656)
+    at u._$react_componentDidUpdate (https://fix-cdn.sbis.ru/static/resources/Controls/baseList.min.js?x_module=3592c9374897a2be9ca883b7ce27cbb2:1:228261)
+    at u._$react_componentDidUpdate (https://fix-cdn.sbis.ru/static/resources/Controls/grid.min.js?x_module=3592c9374897a2be9ca883b7ce27cbb2:1:11908)
+    at L.componentDidUpdate (https://fix-cdn.sbis.ru/static/resources/UICore/online-superbundle.package.min.js?x_module=42f438b6fd81086e8cbbb0c241c164b7:10:44093)
+    at u.componentDidUpdate (https://fix-cdn.sbis.ru/static/resources/UICore/online-superbundle.package.min.js?x_module=42f438b6fd81086e8cbbb0c241c164b7:10:53829)"
+07-12-2024 15:05:22.895000;https://fix-cdn.sbis.ru/static/resources/Env/online-superbundle.package.min.js?x_module=4d03dfe6f8998d8259e67bcd9a9f5efe 2:38463 "CONTROL ERROR: " "Controls/list: корректная работа списка не возможна. Сырые данные содержат дубли записей с ключом \"@Документ\"=\"2203799\". listMethod=\"ПланРабот.СписокПланов\"; keyProperty=\"@Документ\"; IN \"Controls/grid:GridControl\"
+
+ ↱ Controls/grid:GridControl
+  ↱ UICore/Base:Control
+   ↱ Controls/listDataOld:DataContainer
+    ↱ Controls/Container/Async:template - \"Controls/listDataOld:DataContainer\"
+     ↱ Controls/baseList:DataContainerConnected
+      ↱ Controls/grid:View
+       ↱ UICore/HotKeys:KeyHook
+        ↱ Controls/list:HotKeysContainer
+         ↱ Hint/Template:ListWrapper
+          ↱ Controls/scroll:Container
+           ↱ UICore/Base:Control
+            ↱ Controls/listDataOld:ListContainer
+             ↱ UICore/Base:Control
+              ↱ UICore/Base:Control
+               ↱ Controls/browser:Browser
+                ↱ Layout/browsers:Browser
+                 ↱ UICore/Base:Control
+                  ↱ EDO3/browser:OriginalBrowser
+                   ↱ EDO3/browser:Browser
+                    ↱ EDOPlans/list:List
+" "
+Stack: Error
+    at l (https://fix-cdn.sbis.ru/static/resources/UICommon/online-superbundle.package.min.js?x_module=97b4ed72fb3d99d62bbf32ace462d473:4:5619)
+    at Object.b [as error] (https://fix-cdn.sbis.ru/static/resources/UICommon/online-superbundle.package.min.js?x_module=97b4ed72fb3d99d62bbf32ace462d473:4:7222)
+    at u._logCollectionError (https://fix-cdn.sbis.ru/static/resources/Controls/baseList.min.js?x_module=3592c9374897a2be9ca883b7ce27cbb2:1:275113)
+    at https://fix-cdn.sbis.ru/static/resources/Controls/display.min.js?x_module=3592c9374897a2be9ca883b7ce27cbb2:1:81616
+    at Array.forEach (\u003Canonymous>)
+    at o.sortItems (https://fix-cdn.sbis.ru/static/resources/Controls/display.min.js?x_module=3592c9374897a2be9ca883b7ce27cbb2:1:81505)
+    at o._createItemsOrder (https://fix-cdn.sbis.ru/static/resources/Controls/display.min.js?x_module=3592c9374897a2be9ca883b7ce27cbb2:1:81209)
+    at o._getItemsOrder (https://fix-cdn.sbis.ru/static/resources/Controls/display.min.js?x_module=3592c9374897a2be9ca883b7ce27cbb2:1:81136)
+    at get items (https://fix-cdn.sbis.ru/static/resources/Controls/display.min.js?x_module=3592c9374897a2be9ca883b7ce27cbb2:1:80091)
+    at get items (https://fix-cdn.sbis.ru/static/resources/Controls/display.min.js?x_module=3592c9374897a2be9ca883b7ce27cbb2:1:31597)"
+07-12-2024 15:05:29.918000;https://fix-cdn.sbis.ru/static/resources/Env/online-superbundle.package.min.js?x_module=4d03dfe6f8998d8259e67bcd9a9f5efe 2:38463 "CONTROL ERROR: " "Controls/list: корректная работа списка не возможна. Сырые данные содержат дубли записей с ключом \"@Документ\"=\"2196248\". listMethod=\"ПланРабот.СписокПланов\"; keyProperty=\"@Документ\"; IN \"Controls/grid:GridControl\"
+
+ ↱ Controls/grid:GridControl
+  ↱ UICore/Base:Control
+   ↱ Controls/listDataOld:DataContainer
+    ↱ Controls/Container/Async:template - \"Controls/listDataOld:DataContainer\"
+     ↱ Controls/baseList:DataContainerConnected
+      ↱ Controls/grid:View
+       ↱ UICore/HotKeys:KeyHook
+        ↱ Controls/list:HotKeysContainer
+         ↱ Hint/Template:ListWrapper
+          ↱ Controls/scroll:Container
+           ↱ UICore/Base:Control
+            ↱ Controls/listDataOld:ListContainer
+             ↱ UICore/Base:Control
+              ↱ UICore/Base:Control
+               ↱ Controls/browser:Browser
+                ↱ Layout/browsers:Browser
+                 ↱ UICore/Base:Control
+                  ↱ EDO3/browser:OriginalBrowser
+                   ↱ EDO3/browser:Browser
+                    ↱ EDOPlans/list:List
+" "
+Stack: Error
+    at l (https://fix-cdn.sbis.ru/static/resources/UICommon/online-superbundle.package.min.js?x_module=97b4ed72fb3d99d62bbf32ace462d473:4:5619)
+    at Object.b [as error] (https://fix-cdn.sbis.ru/static/resources/UICommon/online-superbundle.package.min.js?x_module=97b4ed72fb3d99d62bbf32ace462d473:4:7222)
+    at u._logCollectionError (https://fix-cdn.sbis.ru/static/resources/Controls/baseList.min.js?x_module=3592c9374897a2be9ca883b7ce27cbb2:1:275113)
+    at https://fix-cdn.sbis.ru/static/resources/Controls/display.min.js?x_module=3592c9374897a2be9ca883b7ce27cbb2:1:81616
+    at Array.forEach (\u003Canonymous>)
+    at o.sortItems (https://fix-cdn.sbis.ru/static/resources/Controls/display.min.js?x_module=3592c9374897a2be9ca883b7ce27cbb2:1:81505)
+    at o._createItemsOrder (https://fix-cdn.sbis.ru/static/resources/Controls/display.min.js?x_module=3592c9374897a2be9ca883b7ce27cbb2:1:81209)
+    at o._getItemsOrder (https://fix-cdn.sbis.ru/static/resources/Controls/display.min.js?x_module=3592c9374897a2be9ca883b7ce27cbb2:1:81136)
+    at get items (https://fix-cdn.sbis.ru/static/resources/Controls/display.min.js?x_module=3592c9374897a2be9ca883b7ce27cbb2:1:80091)
+    at get items (https://fix-cdn.sbis.ru/static/resources/Controls/display.min.js?x_module=3592c9374897a2be9ca883b7ce27cbb2:1:31597)"

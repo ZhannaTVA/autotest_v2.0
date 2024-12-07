@@ -38,7 +38,8 @@ class TestCreatePlan(TestCaseUI):
         plan_card.fill_plan(**plan_data)
         log('Создаем и заполняем пункт плана')
         point_data = {"Тип пункта": self.config.get('POINT_TYPE'), "Описание": self.config.get('POINT_DESC'),
-                      "Исполнитель": self.config.get('POINT_EXECUTOR'), "Принимающий": self.config.get('POINT_CUSTOMER')}
+                      "Исполнитель": self.config.get('POINT_EXECUTOR'),
+                      "Принимающий": self.config.get('POINT_CUSTOMER')}
         plan_card.add_plan_point(**point_data)
         log('Запускаем план в работу')
         plan_card.run_plan()

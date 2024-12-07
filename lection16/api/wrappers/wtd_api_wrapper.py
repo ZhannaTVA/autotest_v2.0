@@ -8,8 +8,7 @@ class WTDFunctions(BaseApiUI):
     """Методы для работы с документом Отгула"""
 
     def delete_document(self, search: str):
-        """
-        Удалить отгул.
+        """Удалить отгул
         :param search: Строка для поиска отгула.
         """
 
@@ -17,7 +16,6 @@ class WTDFunctions(BaseApiUI):
 
         wtd = WTD(self.client).list(search)
         document = Document(self.client)
-
         for doc in wtd:
             if doc['EmployeeFIOList'] == search:
                 document.delete(doc['DocID'])

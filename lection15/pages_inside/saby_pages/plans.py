@@ -1,7 +1,7 @@
 from atf import *
 from atf.ui import *
 from controls import *
-from pages_inside.Libraries.EDOPlans.dialog import Dialogs
+from lection15.pages_inside.Libraries.EDOPlans.dialog import Dialogs
 
 
 class Plans(Region):

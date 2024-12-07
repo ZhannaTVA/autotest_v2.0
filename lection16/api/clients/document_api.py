@@ -10,5 +10,4 @@ class Document(BaseApiUI):
         :param ids: ID документа
         """
         params = {'ИдО': ids}
-
         return self.client.call_rvalue(method='Документ.УдалитьДокументы', **params).result

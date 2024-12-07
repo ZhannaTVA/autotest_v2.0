@@ -50,5 +50,3 @@ class Dialogs(DocumentTemplate):
         self.points_list_tgv.cell(contains_text=point_data['Описание']).click()
         Dialog(self.driver).check_point_field(point_data)
         self.close()
-
-
