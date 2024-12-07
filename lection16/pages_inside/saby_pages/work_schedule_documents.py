@@ -45,3 +45,4 @@ class WorkScheduleDocuments(Region):
     def delete_document(self, text):
         self.timeoff_lst.row(contains_text=text).select_menu_actions('Удалить')
         self.popup_confirmation.confirm()
+        

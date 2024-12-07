@@ -39,7 +39,7 @@ class Dialog(DocumentTemplate):
     def run_timeoff(self, staff):
         """Отправить на согласование"""
 
-        from pages_inside.Libraries.EDO3.passage import Panel
+        from lection15.pages_inside.Libraries.EDO3.passage import Panel
 
         self.phase_el.click()
         agreement = Panel(self.driver)

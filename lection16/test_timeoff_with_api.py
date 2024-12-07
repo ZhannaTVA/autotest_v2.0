@@ -6,9 +6,10 @@ from lection16.pages_inside.saby_pages.work_schedule_documents import WorkSchedu
 from atf.api.json_rpc import JsonRpcClient
 from lection16.api.wrappers.wtd_api_wrapper import WTDFunctions
 
-def get_date():
 
+def get_tomorrow_date():
     return date.today() + timedelta(days=1)
+
 
 class TestCreateTimeOff(TestCaseUI):
 
@@ -34,7 +35,7 @@ class TestCreateTimeOff(TestCaseUI):
         Удалить отгул
         """
         timeoff_data = {'Сотрудник': self.config.get("EMPLOYEE"), 'Причина': self.config.get("REASON1"),
-                        'Дата': get_date()}
+                        'Дата': get_tomorrow_date()}
         timeoff_page = WorkScheduleDocuments(self.driver)
         log('Создаем отгул')
         timeoff_card = timeoff_page.create_document(('Отгул', 'Отгул'))
@@ -57,7 +58,7 @@ class TestCreateTimeOff(TestCaseUI):
         Удалить отгул
         """
         timeoff_data = {'Сотрудник': self.config.get("EMPLOYEE"), 'Причина': self.config.get("REASON2"),
-                        'Дата': get_date(), 'Со скольки': self.config.get('TIME_FROM'),
+                        'Дата': get_tomorrow_date(), 'Со скольки': self.config.get('TIME_FROM'),
                         'До скольки': self.config.get('TIME_TO')}
         timeoff_page = WorkScheduleDocuments(self.driver)
         log('Создаем отгул')

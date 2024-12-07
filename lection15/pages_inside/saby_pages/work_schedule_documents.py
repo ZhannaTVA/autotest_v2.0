@@ -1,7 +1,7 @@
 from atf import *
 from atf.ui import *
 from controls import *
-from pages_inside.Libraries.WorkTimeDocuments.timeoff import Dialog
+from lection15.pages_inside.Libraries.WorkTimeDocuments.timeoff import Dialog
 
 
 class WorkScheduleDocuments(Region):
