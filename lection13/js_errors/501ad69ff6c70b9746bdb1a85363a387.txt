@@ -1,0 +1,1 @@
+02-12-2024 19:03:47.094000;security - [Report Only] Refused to frame 'https://www.google.com/' because an ancestor violates the following Content Security Policy directive: "frame-ancestors 'self'".

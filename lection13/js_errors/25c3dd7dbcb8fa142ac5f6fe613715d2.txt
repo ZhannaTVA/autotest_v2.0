@@ -1,0 +1,42 @@
+02-12-2024 19:07:23.799000;https://fix-cdn.sbis.ru/static/resources/Env/online-superbundle.package.min.js?x_module=195de3a5245708150f8fefc50413a249 2:38463 "CONTROL ERROR: " "Список лежит внутри Controls/browser:Browser, но опция source задаётся на списке.
+            Для корректной работы списка, опцию source надо задавать на Controls/browser:Browser IN \"Controls/baseList:DataContainerConnected\"
+
+ ↱ Controls/baseList:DataContainerConnected
+  ↱ Controls/baseList:View
+   ↱ MessageExt/correspondence:View
+    ↱ MessageExt/Correspondence/Detail
+     ↱ MessageExt/Correspondence/Layout
+      ↱ MessageExt/Workspace/correspondence:Workspace
+" "
+Stack: Error
+    at l (https://fix-cdn.sbis.ru/static/resources/UICommon/online-superbundle.package.min.js?x_module=d42a7cbbd6083c3568d1205b50156356:4:5619)
+    at Object.b [as error] (https://fix-cdn.sbis.ru/static/resources/UICommon/online-superbundle.package.min.js?x_module=d42a7cbbd6083c3568d1205b50156356:4:7222)
+    at https://fix-cdn.sbis.ru/static/resources/Controls/baseList.min.js?x_module=8dfe0c562d3311784a254db3af94f769:1:304535
+    at Array.forEach (\u003Canonymous>)
+    at u._beforeMount (https://fix-cdn.sbis.ru/static/resources/Controls/baseList.min.js?x_module=8dfe0c562d3311784a254db3af94f769:1:304489)
+    at L._beforeFirstRender (https://fix-cdn.sbis.ru/static/resources/UICore/online-superbundle.package.min.js?x_module=e2e71f9a41411a8134a79e5fe50cf81e:10:30258)
+    at L._beforeFirstRender (https://fix-cdn.sbis.ru/static/resources/UICore/online-superbundle.package.min.js?x_module=e2e71f9a41411a8134a79e5fe50cf81e:10:39215)
+    at L.beforeRender (https://fix-cdn.sbis.ru/static/resources/UICore/online-superbundle.package.min.js?x_module=e2e71f9a41411a8134a79e5fe50cf81e:10:39432)
+    at L.render (https://fix-cdn.sbis.ru/static/resources/UICore/online-superbundle.package.min.js?x_module=e2e71f9a41411a8134a79e5fe50cf81e:10:30617)
+    at L.render (https://fix-cdn.sbis.ru/static/resources/UICore/online-superbundle.package.min.js?x_module=e2e71f9a41411a8134a79e5fe50cf81e:10:40331)"
+02-12-2024 19:07:23.799000;https://fix-cdn.sbis.ru/static/resources/Env/online-superbundle.package.min.js?x_module=195de3a5245708150f8fefc50413a249 2:38463 "CONTROL ERROR: " "Список лежит внутри Controls/browser:Browser, но опция filter задаётся на списке.
+            Для корректной работы списка, опцию filter надо задавать на Controls/browser:Browser IN \"Controls/baseList:DataContainerConnected\"
+
+ ↱ Controls/baseList:DataContainerConnected
+  ↱ Controls/baseList:View
+   ↱ MessageExt/correspondence:View
+    ↱ MessageExt/Correspondence/Detail
+     ↱ MessageExt/Correspondence/Layout
+      ↱ MessageExt/Workspace/correspondence:Workspace
+" "
+Stack: Error
+    at l (https://fix-cdn.sbis.ru/static/resources/UICommon/online-superbundle.package.min.js?x_module=d42a7cbbd6083c3568d1205b50156356:4:5619)
+    at Object.b [as error] (https://fix-cdn.sbis.ru/static/resources/UICommon/online-superbundle.package.min.js?x_module=d42a7cbbd6083c3568d1205b50156356:4:7222)
+    at https://fix-cdn.sbis.ru/static/resources/Controls/baseList.min.js?x_module=8dfe0c562d3311784a254db3af94f769:1:304535
+    at Array.forEach (\u003Canonymous>)
+    at u._beforeMount (https://fix-cdn.sbis.ru/static/resources/Controls/baseList.min.js?x_module=8dfe0c562d3311784a254db3af94f769:1:304489)
+    at L._beforeFirstRender (https://fix-cdn.sbis.ru/static/resources/UICore/online-superbundle.package.min.js?x_module=e2e71f9a41411a8134a79e5fe50cf81e:10:30258)
+    at L._beforeFirstRender (https://fix-cdn.sbis.ru/static/resources/UICore/online-superbundle.package.min.js?x_module=e2e71f9a41411a8134a79e5fe50cf81e:10:39215)
+    at L.beforeRender (https://fix-cdn.sbis.ru/static/resources/UICore/online-superbundle.package.min.js?x_module=e2e71f9a41411a8134a79e5fe50cf81e:10:39432)
+    at L.render (https://fix-cdn.sbis.ru/static/resources/UICore/online-superbundle.package.min.js?x_module=e2e71f9a41411a8134a79e5fe50cf81e:10:30617)
+    at L.render (https://fix-cdn.sbis.ru/static/resources/UICore/online-superbundle.package.min.js?x_module=e2e71f9a41411a8134a79e5fe50cf81e:10:40331)"

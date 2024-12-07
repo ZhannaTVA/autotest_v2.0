@@ -1,0 +1,15 @@
+[general]
+BROWSER = "chrome"
+ELEMENT_OUTPUT_LOG = "user_friendly"
+DO_NOT_RESTART = true
+SOFT_RESTART = false
+[custom]
+PLANS_PAGE = "https://fix-online.sbis.ru/page/plans"
+USER_LOGIN = "arobelidze"
+USER_PASSWORD = "SMJ123"
+PLANNING_OBJ = "Палм-Спрингс"
+CUSTOMER = "Бланк Бенуа"
+POINT_TYPE = "Пункт плана"
+POINT_DESC = "Закрыть гештальт"
+POINT_EXECUTOR = "Аробелидзе Жанна"
+POINT_CUSTOMER = "Кюри Мария"

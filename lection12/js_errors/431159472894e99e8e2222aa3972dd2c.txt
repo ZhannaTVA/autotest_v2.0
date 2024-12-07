@@ -1,0 +1,15 @@
+16-10-2024 14:05:14.404000;https://fix-cdn.sbis.ru/static/resources/Env/online-superbundle.package.min.js?x_module=a5cdebd2179dec35413affd79771f4fa 2:38463 "CONTROL ERROR: " "Найдена дублирующая вставка контрола Controls/Application в приложении! Это приводит к увеличению лишнего кода и различным ошибкам, например в двойном срабатывании событий IN \"react:Component\"
+
+ ↱ react:Component
+" "
+Stack: Error
+    at l (https://fix-cdn.sbis.ru/static/resources/UICommon/online-superbundle.package.min.js?x_module=2f52aed1ab41030c84743f0180c9f776:4:5984)
+    at Object.g [as error] (https://fix-cdn.sbis.ru/static/resources/UICommon/online-superbundle.package.min.js?x_module=2f52aed1ab41030c84743f0180c9f776:4:7587)
+    at E.checkErrors (https://fix-cdn.sbis.ru/static/resources/Controls/controls-superbundle.package.min.js?x_module=aae87bd5840fe9934f8342d84f9a3217:45:1487)
+    at E.componentDidMount (https://fix-cdn.sbis.ru/static/resources/Controls/controls-superbundle.package.min.js?x_module=aae87bd5840fe9934f8342d84f9a3217:45:1701)
+    at Rk (https://fix-cdn.sbis.ru/static/resources/React/third-party/react-dom/react-dom.min.js?x_module=73ea82a9479b65129152652d54357c6f:154:45)
+    at il (https://fix-cdn.sbis.ru/static/resources/React/third-party/react-dom/react-dom.min.js?x_module=73ea82a9479b65129152652d54357c6f:187:304)
+    at Re (https://fix-cdn.sbis.ru/static/resources/React/third-party/react-dom/react-dom.min.js?x_module=73ea82a9479b65129152652d54357c6f:35:251)
+    at Ua (https://fix-cdn.sbis.ru/static/resources/React/third-party/react-dom/react-dom.min.js?x_module=73ea82a9479b65129152652d54357c6f:78:14)
+    at sb (https://fix-cdn.sbis.ru/static/resources/React/third-party/react-dom/react-dom.min.js?x_module=73ea82a9479b65129152652d54357c6f:181:88)
+    at fg (https://fix-cdn.sbis.ru/static/resources/React/third-party/react-dom/react-dom.min.js?x_module=73ea82a9479b65129152652d54357c6f:172:304)"

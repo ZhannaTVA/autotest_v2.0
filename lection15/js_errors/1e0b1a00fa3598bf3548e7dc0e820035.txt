@@ -1,0 +1,42 @@
+04-12-2024 22:57:10.990000;https://fix-cdn.sbis.ru/static/resources/RequireJsLoader/config.min.js?x_module=9e810c8f51528b5e1aad52a1ec9a4eac 0:1318 TypeError: Failed to fetch
+    at n.get (https://fix-cdn.sbis.ru/static/resources/RequireJsLoader/online-superbundle.package.min.js?x_module=9e810c8f51528b5e1aad52a1ec9a4eac:9:1349)
+    at Object.load (https://fix-cdn.sbis.ru/static/resources/RequireJsLoader/online-superbundle.package.min.js?x_module=9e810c8f51528b5e1aad52a1ec9a4eac:7:1889)
+    at Object.load (https://fix-cdn.sbis.ru/static/resources/RequireJsLoader/online-superbundle.package.min.js?x_module=9e810c8f51528b5e1aad52a1ec9a4eac:12:271)
+    at t.<anonymous> (https://fix-cdn.sbis.ru/cdn/RequireJS/2.3.5-p10/require.min.js:5:10624)
+    at https://fix-cdn.sbis.ru/cdn/RequireJS/2.3.5-p10/require.min.js:5:1755
+    at w (https://fix-cdn.sbis.ru/cdn/RequireJS/2.3.5-p10/require.min.js:5:4606)
+    at t.callPlugin (https://fix-cdn.sbis.ru/cdn/RequireJS/2.3.5-p10/require.min.js:5:9124)
+    at t.fetch (https://fix-cdn.sbis.ru/cdn/RequireJS/2.3.5-p10/require.min.js:5:7773)
+    at t.check (https://fix-cdn.sbis.ru/cdn/RequireJS/2.3.5-p10/require.min.js:5:8053)
+    at t.enable (https://fix-cdn.sbis.ru/cdn/RequireJS/2.3.5-p10/require.min.js:5:11444)
+04-12-2024 22:57:10.991000;https://fix-cdn.sbis.ru/static/resources/Env/online-superbundle.package.min.js?x_module=4d03dfe6f8998d8259e67bcd9a9f5efe 2:38463 "CONTROL ERROR: " "Page.base:Controller - Error: TypeError: Failed to fetch
+ URL: //fix-cdn.sbis.ru/static/resources/SBIS3.Plugin/base.min.js?x_module=176a975e6f1990a7470be9cd7e15e111
+ \"loadAsync\" function call stack: Error
+    at c (https://fix-cdn.sbis.ru/static/resources/WasabyLoader/online-superbundle.package.min.js?x_module=56841444cf45002eb5c79550976bd2c2:1:1010)
+    at https://fix-cdn.sbis.ru/static/resources/Page/base.min.js?x_module=07a905ff7f006c04fe77130dc5b10e77:1:37522
+    at Array.forEach (\u003Canonymous>)
+    at ie.componentDidMount (https://fix-cdn.sbis.ru/static/resources/Page/base.min.js?x_module=07a905ff7f006c04fe77130dc5b10e77:1:37466)
+    at Rk (https://fix-cdn.sbis.ru/static/resources/React/third-party/react-dom/react-dom.min.js?x_module=5d4c576a2ec9fc017540c91f9da94a7c:154:232)
+    at il (https://fix-cdn.sbis.ru/static/resources/React/third-party/react-dom/react-dom.min.js?x_module=5d4c576a2ec9fc017540c91f9da94a7c:187:426)
+    at Re (https://fix-cdn.sbis.ru/static/resources/React/third-party/react-dom/react-dom.min.js?x_module=5d4c576a2ec9fc017540c91f9da94a7c:36:28)
+    at Ua (https://fix-cdn.sbis.ru/static/resources/React/third-party/react-dom/react-dom.min.js?x_module=5d4c576a2ec9fc017540c91f9da94a7c:78:237)
+    at sb (https://fix-cdn.sbis.ru/static/resources/React/third-party/react-dom/react-dom.min.js?x_module=5d4c576a2ec9fc017540c91f9da94a7c:181:213)
+    at fg (https://fix-cdn.sbis.ru/static/resources/React/third-party/react-dom/react-dom.min.js?x_module=5d4c576a2ec9fc017540c91f9da94a7c:172:438)
+ Original error stack:
+ URL: //fix-cdn.sbis.ru/static/resources/SBIS3.Plugin/base.min.js?x_module=176a975e6f1990a7470be9cd7e15e111
+ \"loadAsync\" function call stack: Error
+    at c (https://fix-cdn.sbis.ru/static/resources/WasabyLoader/online-superbundle.package.min.js?x_module=56841444cf45002eb5c79550976bd2c2:1:1010)
+    at https://fix-cdn.sbis.ru/static/resources/Page/base.min.js?x_module=07a905ff7f006c04fe77130dc5b10e77:1:37522
+    at Array.forEach (\u003Canonymous>)
+    at ie.componentDidMount (https://fix-cdn.sbis.ru/static/resources/Page/base.min.js?x_module=07a905ff7f006c04fe77130dc5b10e77:1:37466)
+    at Rk (https://fix-cdn.sbis.ru/static/resources/React/third-party/react-dom/react-dom.min.js?x_module=5d4c576a2ec9fc017540c91f9da94a7c:154:232)
+    at il (https://fix-cdn.sbis.ru/static/resources/React/third-party/react-dom/react-dom.min.js?x_module=5d4c576a2ec9fc017540c91f9da94a7c:187:426)
+    at Re (https://fix-cdn.sbis.ru/static/resources/React/third-party/react-dom/react-dom.min.js?x_module=5d4c576a2ec9fc017540c91f9da94a7c:36:28)
+    at Ua (https://fix-cdn.sbis.ru/static/resources/React/third-party/react-dom/react-dom.min.js?x_module=5d4c576a2ec9fc017540c91f9da94a7c:78:237)
+    at sb (https://fix-cdn.sbis.ru/static/resources/React/third-party/react-dom/react-dom.min.js?x_module=5d4c576a2ec9fc017540c91f9da94a7c:181:213)
+    at fg (https://fix-cdn.sbis.ru/static/resources/React/third-party/react-dom/react-dom.min.js?x_module=5d4c576a2ec9fc017540c91f9da94a7c:172:438)
+ Original error stack:" "
+Stack: Error
+    at l (https://fix-cdn.sbis.ru/static/resources/UICommon/online-superbundle.package.min.js?x_module=97b4ed72fb3d99d62bbf32ace462d473:4:5619)
+    at Object.b [as error] (https://fix-cdn.sbis.ru/static/resources/UICommon/online-superbundle.package.min.js?x_module=97b4ed72fb3d99d62bbf32ace462d473:4:7222)
+    at https://fix-cdn.sbis.ru/static/resources/Page/base.min.js?x_module=07a905ff7f006c04fe77130dc5b10e77:1:37706"

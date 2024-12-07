@@ -1,0 +1,1 @@
+04-12-2024 22:45:44.637000;https://fix-cdn.sbis.ru/static/resources/RequireJsLoader/config.min.js?x_module=9e810c8f51528b5e1aad52a1ec9a4eac 0:1318 TypeError: Failed to fetch

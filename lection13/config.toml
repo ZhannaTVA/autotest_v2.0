@@ -1,0 +1,15 @@
+[general]
+BROWSER = "chrome"
+ELEMENT_OUTPUT_LOG = "user_friendly"
+DO_NOT_RESTART = true
+SOFT_RESTART = false
+[custom]
+SITE = "https://fix-online.sbis.ru"
+SITE_DIALOGS = "https://fix-online.sbis.ru/page/dialogs"
+USER_LOGIN = "arobelidze"
+USER_PASSWORD = "SMJ123"
+MESSAGE_TEXT = "Автотест сообщение для перемещения"
+FOLDER_NAME = "autotest_folder"
+FOLDER_ALL = "Все сообщения"
+MSG_RECEPIENT = 'Старк Тони'
+TAG = 'autotest_tag'

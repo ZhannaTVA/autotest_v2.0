@@ -1,0 +1,16 @@
+[general]
+BROWSER = "chrome"
+ELEMENT_OUTPUT_LOG = "user_friendly"
+DO_NOT_RESTART = true
+SOFT_RESTART = false
+[custom]
+SITE = "https://fix-online.sbis.ru"
+SHEDULE_PAGE = "https://fix-online.sbis.ru/page/work-schedule-documents"
+USER_LOGIN = "arobelidze"
+USER_PASSWORD = "SMJ123"
+EMPLOYEE = "Аробелидзе Жанна"
+REASON1 = "Иду на концерт"
+REASON2 = "Участвую в выборах"
+STAFF = "Бланк Бенуа"
+TIME_FROM = "12:30"
+TIME_TO = "15:15"

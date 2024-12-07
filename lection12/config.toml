@@ -1,0 +1,20 @@
+[general]
+BROWSER = "chrome"
+ELEMENT_OUTPUT_LOG = "user_friendly"
+DO_NOT_RESTART = true
+SOFT_RESTART = false
+[custom]
+AUTH_SITE = "https://fix-online.sbis.ru/auth/"
+CONTACTS_SITE = "https://fix-online.sbis.ru/page/dialogs"
+TASKS_SITE = "https://fix-online.sbis.ru/page/tasks-in-work"
+TASK_LINK = "https://fix-online.sbis.ru/opendoc.html?guid=4204cacd-5c58-47b3-bd65-3833885bf488&client=6242047"
+TASK_TITLE = 'Задача №797 от 30.05.24'
+TASK_EXECUTOR = 'Аробелидзе Ж.'
+TASK_DATA = '30.05.24'
+TASK_NUMBER = '797'
+TASK_DESCRIPTION = 'Эталонная задача для автотеста'
+TASK_AUTHOR = 'Крюков Б.В.'
+USER_LOGIN = "arobelidze"
+USER_PASSWORD = "SMJ123"
+RECIPIENT_NAME = "Аробелидзе Жанна"
+MESSAGE_TEXT = "Автотест сообщение самому себе"
